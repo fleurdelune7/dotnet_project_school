@@ -8,19 +8,21 @@ namespace mehmet_anket_36501
     public class Executer
     {
         
-        
         private readonly List<Contact> _contacts = new();
 
         public Executer()
         {
-            var contact1 = new Contact("Arda", "Anket", "ardapolskapl@gmail.com",
-                DateTime.ParseExact("19-11-1999", "dd-MM-yyyy", CultureInfo.InvariantCulture), 000036501);
+            var contact1 = new Contact("Tom", "Smith", "tsmith@gmail.com",
+                DateTime.ParseExact("04-10-1999", "dd-MM-yyyy", CultureInfo.InvariantCulture), 000036501);
             var contact2 = new Contact("Ewa", "Angelika", "eww72@hotmail.com",
                 DateTime.ParseExact("01-05-2000", "dd-MM-yyyy", CultureInfo.InvariantCulture), 415498395);
+            var contact3 = new Contact("Kamil", "Lewo", "klwo@gmail.com",
+                DateTime.ParseExact("14-08-2000", "dd-MM-yyyy", CultureInfo.InvariantCulture), 415956395);
             
 
             _contacts.Add(contact1);
             _contacts.Add(contact2);
+            _contacts.Add(contact3);
         }
 
         public void AddContact(int index = -1)
