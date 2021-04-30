@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.mehmet_anket_36501.iml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\fleurdelune7\RiderProjects\mehmet_anket_36501\.idea\.idea.mehmet_anket_36501\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
