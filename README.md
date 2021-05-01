@@ -1,4 +1,4 @@
 # dotnet_project_school
-Basic Contact List App
+Contacts App
 This repository is generated for the .Net Programming final project [W.SLE.IN.601].
-Basic console calendar app, written in C#.
+Basic console app, written in C#.
